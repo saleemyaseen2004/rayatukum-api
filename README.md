@@ -19,4 +19,4 @@ Backend deployed at:
 https://rr-2-ih73.onrender.com
 
 ## Screenshots
-![App] (Nova.png)
+![App] (Nova.PNG)
