@@ -1,4 +1,4 @@
-# Rayatukum - AI Healthcare Chatbot 🏥
+# NovaChat - AI Chatbot 🏥
 
 A Flutter app integrated with AI to provide healthcare services.
 
