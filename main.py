@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-api_key = os.getenv("GROQ_API_KEY")
+api_key = os.getenv("GROQ_API_KEY")// THE API IN RENDER CLOUD
 
 class Message(BaseModel):
     name: str
