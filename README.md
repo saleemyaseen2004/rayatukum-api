@@ -75,7 +75,6 @@ flutter run
 ### Backend Setup
 
 ```bash
-cd rayatukum-api
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
@@ -96,7 +95,7 @@ nova_chat/               ← Flutter App
 │   └── main.dart        ← Full UI + API integration
 └── pubspec.yaml
 
-rayatukum-api/           ← Python Backend
+api/           ← Python Backend
 ├── main.py              ← FastAPI + Groq integration
 └── requirements.txt
 ```
