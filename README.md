@@ -1,16 +1,19 @@
-# nova_chat
+# Rayatukum - AI Healthcare Chatbot 🏥
 
-A new Flutter project.
+A Flutter app integrated with AI to provide healthcare services.
 
-## Getting Started
+## Features
+- 🤖 AI chatbot that speaks Arabic
+- 🏥 Specialized in healthcare services
+- ⚡ Cloud API running 24/7
+- 📱 Professional UI/UX
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter (Frontend)
+- Python FastAPI (Backend)
+- Groq LLM API
+- Render (Cloud Deployment)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Live API
+Backend deployed at:
+https://rr-2-ih73.onrender.com
