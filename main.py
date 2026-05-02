@@ -1,11 +1,21 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import requests
 import os 
 
 app = FastAPI()
 
+# ─── CORS ────────────────────────────────────────────────────────────────────
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 api_key = os.getenv("GROQ_API_KEY")
+
 class Message(BaseModel):
     name: str
     content: str
