@@ -17,3 +17,5 @@ A Flutter app integrated with AI to provide healthcare services.
 ## Live API
 Backend deployed at:
 https://rr-2-ih73.onrender.com
+
+## Screenshots
